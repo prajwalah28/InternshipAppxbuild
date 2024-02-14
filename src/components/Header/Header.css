@@ -1,0 +1,92 @@
+.headerall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #f0f0f0; /* Example background color */
+  }
+  
+  .headera {
+    /* You may add styling for your logo here */
+    font-size: 24px; /* Example font size */
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin-right:70px; /* Adjust margin as needed */
+  }
+  
+  .nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #333; /* Example link color */
+    /* Add additional styling for the navigation links here */
+  }
+  
+  .headerb{
+    display: flex;
+    
+  }
+  .headerb img{
+    margin-right: 10px;
+    width: 40px;
+  }
+  .headerb button {
+    /* Styling for login button */
+    padding: 8px 16px; /* Example padding */
+    background-color: #007bff; /* Example button color */
+    border: none;
+    border-radius: 4px; /* Example border radius */
+    color: #fff; /* Example text color */
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .headerb button:hover {
+    background-color: #0056b3; /* Example button hover color */
+  }
+  
+  /* Responsive Styling */
+  @media only screen and (max-width: 768px) {
+    .headerall {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+    
+    .nav {
+      margin-top: 10px; 
+      display: none;
+      /* Add margin to separate navigation from logo and login button */
+    }
+    
+    .nav ul li {
+      display: block;
+      margin: 5px 0; /* Adjust margin for smaller screens */
+    }
+  
+    .headerb {
+      margin-top: 10px; /* Add margin to separate login button from logo and navigation */
+    }
+    .nav.active {
+        display: block;
+        /* Add any necessary styles for mobile menu */
+      }
+  }
+  
+  /* Add this media query for screen widths up to 992px */
+  @media only screen and (min-width: 993px) {
+    .bi-menu-icon {
+      display: none;
+    }
+  }
