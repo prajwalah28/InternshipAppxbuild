@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.faq-header{
+    position: relative;
+    top: 400px;
+    left: 93px;
+    width: 90%;
+
+}
+.faq-all{
+    display: flex;
+    justify-content: space-around;
+}
+
+.question{
+    width: 500px;
+    padding: 10px 20px;
+    position: relative;
+    left: -60px;
+    border: solid 1px gray;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.plus{
+    float: right;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

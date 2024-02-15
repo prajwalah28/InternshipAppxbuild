@@ -1,32 +1,35 @@
 import React from 'react';
 import Star from '../../assets/Star.png';
 import {Link} from "react-router-dom";
+import '../../pages/FindaDoctor.css'
+import { GoArrowRight } from "react-icons/go";
 
 function DoctorCard({doctor}) {
 
-    // const {name, avgRating, specialty, totalRating, photo, totalPatients, hospital} = doctor;
+    const {name, avgRating, specialty, totalRating, photo, totalPatients, hospital} = doctor;
     return (
         <>
-        <div>
+        <div className="doctor-card">
             <div>
-                <img src={doctor.photo}/>
-            </div>
-            <h2>{name}</h2>
-            <div>
-                <span>{doctor.specialty}
-                    <img src={Star} /> {doctor.avgRating}
+                    <img src={photo}/>
+
+                <h2>{name}</h2>
+
+                <div className="rating">
+                <span className="spansp">{specialty}</span>
+                    <span className="rate-text"> <img src={Star}/> {avgRating} ({totalRating})
                 </span>
-                <span>{doctor.totalRating}</span>
-            </div>
-            <div>
-                <div>
-                    <h3>+{doctor.totalPatients} patients</h3>
-                    <p>{doctor.hospital}</p>
+                </div>
+
+                <div className="flexc">
+                <span><h3>+{totalPatients} patients</h3>
+                        <p>{hospital}</p>
+                    </span>
+                    <button><GoArrowRight /></button>
+                </div>
+
                 </div>
             </div>
-        </div>
-
-
 
 
 
