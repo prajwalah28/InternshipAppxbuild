@@ -19,7 +19,7 @@ const quickLinks =[
 export default function Footer() {
   return (
     <div>
-      Footer
+      Foote
     </div>
   )
 }
