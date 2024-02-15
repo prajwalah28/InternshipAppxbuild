@@ -1,0 +1,9 @@
+.servicelist{
+    grid-template-columns: auto auto auto;
+    display:grid ;
+}
+@media (max-width: 768px) {
+    .servicelist {
+        grid-template-columns: auto ; /* 50% width with some spacing */
+    }
+  }

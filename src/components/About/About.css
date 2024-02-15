@@ -1,0 +1,29 @@
+.aboutimg{
+    position: relative;
+}
+.aboutimg2 img{
+position: absolute;
+  bottom: -10px;
+  left: 10px;
+  
+}
+.aboutimg1 img{
+  
+  height: auto;
+  
+}
+.mc32{
+    margin-left: 20px;
+}
+.mc32 button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.aboutall{
+    display: flex;
+    margin-top: 70px;
+}

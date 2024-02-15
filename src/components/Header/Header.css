@@ -59,7 +59,7 @@
   /* Responsive Styling */
   @media only screen and (max-width: 768px) {
     .headerall {
-      flex-direction: column;
+      flex-direction: row;
       align-items: stretch;
       padding: 10px; /* Adjust padding for smaller screens */
     }
@@ -82,11 +82,16 @@
         display: block;
         /* Add any necessary styles for mobile menu */
       }
+      .bi-menu-icon {
+       font-size: 30px;
+    
+      }
   }
   
   /* Add this media query for screen widths up to 992px */
   @media only screen and (min-width: 993px) {
     .bi-menu-icon {
       display: none;
+  
     }
   }

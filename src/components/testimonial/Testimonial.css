@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.testimonialall{
+    margin-top: 150px;
+}
+.test-header{
+    
+    top: 150px;
+}
+
+.test-header h2{
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.test-header p{
+text-align: center;
+    font-family: "Manrope", sans-serif;
+    font-weight: 1;
+}
+
+.swiper1{
+   
+    left: 100px ;
+    right: 100px;
+   
+    width: 100%;
+
+
+}
+
+
