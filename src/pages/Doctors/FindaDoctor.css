@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-.find{
+.find {
     width: 100%;
     height: 200px;
     background-color: #ffffea;
@@ -10,7 +10,7 @@
     flex-direction: column;
 }
 
-.find h2{
+.find h2 {
     font-family: "Manrope", sans-serif;
     font-style: normal;
     font-size: 40px;
@@ -31,7 +31,7 @@
     top: -30px;
 }
 
-.find button{
+.find button {
     height: 40px;
     padding: 0px 20px;
     outline: none;
@@ -45,7 +45,7 @@
     top: -30px;
 }
 
-.doctor-card{
+.doctor-card {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -53,7 +53,7 @@
     top: 30px;
 }
 
-.spansp{
+.spansp {
     background-color: #61dafb;
     padding: 10px 40px;
     border-radius: 5px;
@@ -62,28 +62,29 @@
     cursor: pointer;
 }
 
-.rating{
+.rating {
     display: flex;
     justify-content: space-between;
 }
 
-.rate-text{
+.rate-text {
     font-size: 18px;
     font-weight: 200;
     position: relative;
     top: 8px;
 }
 
-.rate-text img{
+.rate-text img {
     position: relative;
     top: 2px;
 }
 
-.flexc{
+.flexc {
     display: flex;
     justify-content: space-between;
 }
-.flexc button{
+
+.flexc button {
     height: 40px;
     width: 40px;
     border-radius: 50%;
