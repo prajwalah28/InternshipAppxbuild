@@ -22,7 +22,7 @@ export default function Home(params) {
       <div className="main_class">
         <div className="class1">
           <div className="one">
-            <h1>We help patient live a healthy, longer life</h1>
+              <h1>We help patient live a healthy, longer life</h1><p>bava</p>
           </div>
           <div className="two">
             <div className="tone">
@@ -65,7 +65,7 @@ export default function Home(params) {
             </h2>
             <p>World-class care for everyone.Our health Syste offers unmatched,
             expert health care.</p>
-         
+
 
           <div className="c2_two">
              <div className="c_img">
@@ -102,15 +102,15 @@ export default function Home(params) {
               </Link>
             </div>
             </div>
-           
-          
-        </div>
-        
-     {/* about section start */}
+
+
+      </div>
+
+        {/* about section start */}
      <About/>
      {/* feature section */}
-     
-      {/* services */}
+
+        {/* services */}
       <div className="servicesection">
         <h2>Our medical services</h2>
         <p>World-class care for everyone.Our health System offers unmatched,expert health care. </p>
@@ -137,8 +137,8 @@ export default function Home(params) {
         {/* our doctors */}
       <div className="doctors"><h1>Our great doctors</h1>
         <p>World-class care for everyone.Our health system offers unmatched,expert healthcare.</p></div>
-        
-      <Doctors/>
+
+        <Doctors/>
       {/* faq */}
       <section className="faq-header">
               <div className="faq-all">
