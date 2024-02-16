@@ -21,8 +21,8 @@ export default function Home(params) {
     <>
       <div className="main_class">
         <div className="class1">
-          <div className="one">
-            <h1>We help patient live a healthy, longer life</h1><p>prajwal</p>
+          <div className="one"> 
+            <h1>We help patient live a healthy, longer life</h1><p>prajwal sanket</p>
           </div>
           <div className="two">
             <div className="tone">
