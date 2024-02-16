@@ -1,0 +1,104 @@
+/* Login.css */
+
+.containerall {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .container1 {
+    
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .container2 {
+    
+    flex: 1;
+    padding: 20px;
+  }
+.container2 h1{
+    font-size: 40px;
+}
+  
+  .container1 img{
+    width: 500px;
+    height: 500px;
+  }
+  
+  
+  .container2 form {
+    width: 500px;
+    height: 600px;
+    margin-top: 50px ;
+  }
+  
+ 
+  
+  .container2 h1 {
+   
+    font-size: 18px;
+  }
+  
+  .container2 input[type='text'],
+  .container2 input[type='password'] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .container2 button {
+    margin-top: 20px;
+    width: 40%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .container2 button:hover {
+    background-color: #0056b3;
+  }
+  
+  .container2 p {
+    font-size: 14px;
+  }
+  
+  .container2 p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  .login{
+    font-size: 40px;
+  }
+  
+  /* Responsive for mobile */
+  @media screen and (max-width: 600px) {
+    .containerall {
+      flex-direction: column;
+    }
+    .container1,
+    .container2 {
+      width: 100%;
+    }
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .container2 {
+    animation: slideInFromLeft 0.5s ease;
+  }

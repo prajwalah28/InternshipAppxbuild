@@ -2,13 +2,14 @@
 .ServiceCard {
 
     
-    
+    margin-top: 20px;
     margin-bottom: 20px;
   }
   
   /* Individual ServiceCard */
   .perServiceCard {
    width: 370px;
+   height: 180px;
     flex: 0 0 calc(33.33% - 10px); /* 33.33% width with some spacing */
     background-color: #f9f9f9;
     padding: 20px;

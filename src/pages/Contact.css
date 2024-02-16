@@ -1,0 +1,27 @@
+.contactheading{
+
+    text-align: center;
+}
+.contactform{
+    
+    text-align: justify;
+}
+.contactform label{
+    font-size: 20px;
+}
+.contactform div{
+    padding-bottom: 30px;
+}
+.contactform input,textarea{
+    width: 400px;
+}
+.contactform textarea{
+    height: 100px;
+}
+.contactform{
+    margin-left: 400px;
+}
+button{
+    background-color: blue;
+    color: white;
+}
