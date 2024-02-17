@@ -3,6 +3,7 @@ import {doctors} from "../../assets/data/doctors.js";
 import DoctorCard from "../../components/Doctor/DoctorCard.jsx";
 import './FindaDoctor.css'
 import Testimonial from "../../components/testimonial/Testimonial.jsx";
+import DoctorDetails from "./DoctorDetails.jsx";
 
 function Doctors() {
     return (
@@ -26,6 +27,7 @@ function Doctors() {
                 </div>
             </section>
             <Testimonial/>
+            <DoctorDetails/>
 
         </>
     );
