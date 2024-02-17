@@ -84,17 +84,126 @@
     justify-content: space-between;
 }
 
-.flexc button {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    outline: none;
-    cursor: pointer;
-    position: relative;
-    top: 22px;
-    background: transparent;
-    border: solid 1px;
+.docDetails {
+    display: flex;
+    width: 90%;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
 }
 
+.docPhoto {
+    width: 250px;
+    margin-left: 180px;
+}
 
+.docname {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.spanspc {
+
+    color: #00a1c0;
+    font-family: "Manrope", sans-serif;
+    cursor: pointer;
+}
+
+.docDetails p {
+    font-weight: 1;
+}
+
+.AbFeed button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 1;
+}
+
+.AbFeed {
+    display: flex;
+    margin-left: 190px;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.line {
+    height: 1px;
+    width: 650px;
+    background-color: gray;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    margin-top: 8px;
+}
+
+.aboutdoc {
+    margin-left: 180px;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+}
+
+.aboutdoc p {
+    font-size: 14px;
+}
+
+.edu {
+    margin-left: 180px;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+}
+
+.two-edu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.edu1 {
+    display: flex;
+    gap: 200px;
+}
+
+.edu2 {
+    display: flex;
+    gap: 200px;
+}
+
+.exp {
+    margin-left: 180px;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+.exp-two {
+    display: flex;
+    margin-left: 20px;
+    gap: 100px;
+}
+
+.exp-two div {
+    background-color: #ffeeda;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.two-edu p {
+    font-size: 14px;
+}
+
+.two-edu span {
+    font-size: 14px;
+}
+
+.exp p {
+    font-size: 14px;
+}
+
+.exp span {
+    font-size: 14px;
+    color: #ffb42d;
+}
 
