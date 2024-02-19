@@ -3,12 +3,14 @@ import Star from '../../assets/images/Star.png';
 import DocPhoto from '../../assets/images/doctor-img02.png';
 import DoctorAbout from "./DoctorAbout.jsx";
 import Feedback from "./Feedback.jsx";
+import Sidepanel from "./Sidepanel.jsx";
 
 export default function DoctorDetails() {
     const [tab, setTab] = useState('about');
   return (
       <>
-          <div className="docDetails">
+          <div className="panel">
+              <div className="docDetails">
               <div>
                   <img src={DocPhoto} className="docPhoto"/>
               </div>
@@ -19,7 +21,12 @@ export default function DoctorDetails() {
                   <img src={Star}/> 4.8 (272)
                   <p>Lorem Ipsum dolor sit amet </p>
               </div>
+              </div>
+              <div>
+                  <Sidepanel/>
+              </div>
           </div>
+
 
           <div className="AbFeed">
               <div>
@@ -41,6 +48,7 @@ export default function DoctorDetails() {
               {tab === 'about' && <DoctorAbout/>}
               {tab === 'feedback' && <Feedback/>}
           </div>
+
       </>
   )
 }

@@ -69,3 +69,68 @@
 .form textarea {
     height: 70px;
 }
+
+.submit button {
+    padding: 15px 20px;
+    background-color: blue;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ticket {
+    width: 300px;
+    background-color: #fffcfc;
+    box-shadow: black;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 300px;
+    justify-content: center;
+    border: solid gray 1px;
+}
+
+.flex1 {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.flex-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-row1 {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.appointment button {
+    width: 250px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.second h4 {
+    margin-left: 20px;
+}
+
+.second p {
+    margin-top: -5px;
+}
+
+.second {
+    margin-top: -20px;
+}

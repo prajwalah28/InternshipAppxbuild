@@ -43,7 +43,11 @@ function FeedbackForm(props) {
                     <textarea placeholder="write your message here..."
                               onChange={e => setReviewText(e.target.value)}></textarea>
                 </div>
+                <div className="submit">
+                    <button type="submit">Submit Feedback</button>
+                </div>
             </form>
+
         </>
     );
 }
