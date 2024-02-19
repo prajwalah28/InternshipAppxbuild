@@ -27,7 +27,6 @@ function Doctors() {
                 </div>
             </section>
             <Testimonial/>
-            <DoctorDetails/>
 
         </>
     );

@@ -212,3 +212,8 @@
     display: flex;
 }
 
+.flexc button {
+    background-color: transparent;
+    color: black;
+}
+
