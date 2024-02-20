@@ -5,11 +5,14 @@ const {
     getAllUser,
     getSingleUser
   } = require("../Controllers/userController.js");
+
+  
+  const {authenticate,restrict} = require("../auth/verifyToken.js");
 const router = express.Router();
 // @route   GET api/users
-router.get('/:id',getSingleUser)
-router.get('/',getAllUser)
-router.put('/:id',updateUser)
-router.delete('/:id',deleteUser)
+router.get('/:id',authenticate,restrict(["patient"]),getSingleUser)
+router.get('/',authenticate,restrict(["patient"]),getAllUser)
+router.put('/:id',authenticate,restrict(["patient"]),updateUser)
+router.delete('/:id',authenticate,restrict(["patient"]),deleteUser)
 
 module.exports = router;

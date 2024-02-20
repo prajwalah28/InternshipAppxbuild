@@ -5,8 +5,8 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const authRoute = require("./Routes/auth.js");
 const userRoute = require("./Routes/user.js")
-const doctorRoute = require("./Routes/doctor.js")
-
+const doctorRoute = require("./Routes/doctors.js");
+const reviewRoute = require("./Routes/review.js");
 dotenv.config()
 
 const app = express()
@@ -42,6 +42,8 @@ app.use(cors(corsOptions));
 app.use('/api/v1/auth',authRoute)
 app.use('/api/v1/users',userRoute);
 app.use('/api/v1/doctors',doctorRoute);
+app.use('/api/v1/reviews',reviewRoute);
+
 
 app.listen(port, ()=> {
     connectDB();
