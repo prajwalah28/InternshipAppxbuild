@@ -21,8 +21,13 @@ export default function Home(params) {
     <>
       <div className="main_class">
         <div className="class1">
+<<<<<<< HEAD:frontend/src/pages/Home.jsx
           <div className="one">
               <h1>We help patient live a healthy, longer life</h1><p>himanshu varun</p>
+=======
+          <div className="one"> 
+            <h1>We help patient live a healthy, longer life</h1><p>prajwal sanket</p>
+>>>>>>> 14915d83c903bb0bbcb550f56a3aebd7fbe281cd:src/pages/Home.jsx
           </div>
           <div className="two">
             <div className="tone">
