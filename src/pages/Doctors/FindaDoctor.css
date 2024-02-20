@@ -89,6 +89,7 @@
     width: 90%;
     font-family: "Manrope", sans-serif;
     font-style: normal;
+    margin-top: 100px;
 }
 
 .docPhoto {
@@ -205,5 +206,14 @@
 .exp span {
     font-size: 14px;
     color: #ffb42d;
+}
+
+.panel {
+    display: flex;
+}
+
+.flexc button {
+    background-color: transparent;
+    color: black;
 }
 

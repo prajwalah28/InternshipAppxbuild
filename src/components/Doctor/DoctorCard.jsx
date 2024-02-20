@@ -2,6 +2,7 @@ import React from 'react';
 import Star from '../../assets/images/Star.png';
 import '../../pages/FindaDoctor.css'
 import { GoArrowRight } from "react-icons/go";
+import {Link} from 'react-router-dom'
 
 function DoctorCard({doctor}) {
 
@@ -24,7 +25,10 @@ function DoctorCard({doctor}) {
                 <span><h3>+{totalPatients} patients</h3>
                         <p>{hospital}</p>
                     </span>
-                        <button><GoArrowRight/></button>
+                        <Link to="/doctor/id">
+                            <button><GoArrowRight/></button>
+                        </Link>
+
                     </div>
 
                 </div>
