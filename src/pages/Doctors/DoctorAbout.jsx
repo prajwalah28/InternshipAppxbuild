@@ -1,4 +1,4 @@
-import React from 'react';
+    import React from 'react';
 import {formatdate} from "../../utils/formatDate.js";
 
 function DoctorAbout(props) {

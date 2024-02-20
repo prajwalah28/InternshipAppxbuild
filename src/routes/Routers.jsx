@@ -7,6 +7,7 @@ import Login from '../pages/Login';
 import Signup from '../pages/Signup';
 import Contact from '../pages/Contact';
 import Services from '../pages/Services';
+import CheckoutSuccess from "../pages/CheckoutSuccess.jsx";
 export default function Routers() {
   return (
     <Routes>
@@ -18,6 +19,7 @@ export default function Routers() {
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/services" element={<Services/>}/>
+        <Route path="/checkout-success" element={<CheckoutSuccess/>}/>
 
     </Routes>
   )

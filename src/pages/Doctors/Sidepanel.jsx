@@ -1,7 +1,38 @@
 import React from 'react';
 import './Feedback.css'
+import {toast} from "react-toastify";
 
-function Sidepanel(props) {
+
+function Sidepanel({doctorId, ticketPrice, timeSlots }) {
+    const bookingHandler = async() => {
+        try {
+            const res = await fetch(`${BASE_URL}/bookings/checkout-session/${doctorId}`,
+                {
+                    method: 'post',
+                    headers: {
+                        Authorization: `Bearer ${token}`
+                    }
+                })
+
+            const data = await res.json()
+
+            if (!res.ok) {
+                throw new Error(data.message + 'Please try again')
+            }
+
+            if (data.session.url) {
+                window.location.href = data.session.url
+            }
+
+        } catch (err) {
+            toast.error(err.message)
+
+        }
+
+
+
+    }
+
     return (
         <div className="ticket">
             <div className="flex1">
@@ -35,7 +66,7 @@ function Sidepanel(props) {
                     </div>
                 </div>
                 <div className="appointment">
-                    <button>Book Appointment</button>
+                    <button onClick={bookingHandler}>Book Appointment</button>
                 </div>
             </div>
         </div>
