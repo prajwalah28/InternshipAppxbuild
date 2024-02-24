@@ -4,6 +4,7 @@ import logo from "../../assets/images/logo.png";
 import avatar from "../../assets/images/avatar-icon.png";
 import './Header.css';
 import { BiMenu } from 'react-icons/bi';
+import {authContext} from "../../context/AuthContext.jsx";
 
 const navLinks = [
   {
@@ -27,7 +28,8 @@ const navLinks = [
 export default function Header() {
   const [showNavbar, setShowNavbar] = useState(false);
 
-  const handleShowNavbar = () => {
+
+    const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
 
