@@ -88,7 +88,7 @@
     box-shadow: black;
     border-radius: 10px;
     margin-top: 100px;
-    margin-right: 300px;
+    margin-right: 200px;
     justify-content: center;
     border: solid gray 1px;
 }
@@ -97,18 +97,23 @@
     display: flex;
     gap: 70px;
     justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .flex-all {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .flex-row1 {
     display: flex;
     gap: 70px;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .appointment button {
@@ -118,7 +123,7 @@
     border: none;
     outline: none;
     margin-left: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     cursor: pointer;
     justify-content: center;
 }

@@ -3,7 +3,8 @@ const {
     updateDoctor,
     deleteDoctor,
     getAllDoctor,
-    getSingleDoctor
+    getSingleDoctor,
+    getDoctorProfile
   } = require("../Controllers/doctorController.js");
   const {authenticate,restrict} = require("../auth/verifyToken.js");
    
@@ -15,5 +16,5 @@ router.get('/:id',getSingleDoctor)
 router.get('/',getAllDoctor)
 router.put('/:id',authenticate,restrict(["doctor"]),updateDoctor)
 router.delete('/:id',authenticate,restrict(["doctor"]),deleteDoctor)
-
+router.get('/profile/me',authenticate,restrict(["doctor"]),getDoctorProfile)
 module.exports = router;

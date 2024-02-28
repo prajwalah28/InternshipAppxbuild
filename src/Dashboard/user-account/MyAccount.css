@@ -1,0 +1,46 @@
+.allside{
+    display: flex;
+    justify-content: center;
+}
+.allbtn{
+    margin-top: 40px;
+}
+.allbtn button{
+    margin-top: 20px;
+    width:200px;
+    height: 30px;
+    cursor: pointer;
+}
+.logout{
+    background-color: black;
+    color: white;
+}
+.delete{
+    background-color: red;
+    color: white;
+}
+.leftside img{
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.leftside h1{
+font-size: 20px;
+}
+.leftside p{
+    margin-left: -30px;
+    text-align: center;
+}
+.rightside button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.rightside button.active {
+    background-color: blue;
+    color: white;
+}
