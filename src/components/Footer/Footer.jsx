@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import logo from '../../assets/images/logo.png'
 import {RiLinkedinFill} from 'react-icons/ri'
 import {AiFillYoutube,AiFillGithub,AiOutlineInstagram, AiFillInstagram} from 'react-icons/ai';
-import  './Footer.css';
+import  './Footer.css'
 
 const socialLinks = [
   {

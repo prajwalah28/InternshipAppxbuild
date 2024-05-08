@@ -1,0 +1,70 @@
+/* Loader component */
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Error component */
+  .error-message {
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
+  /* Dashboard layout */
+  .displayall {
+   
+   
+  }
+  
+  
+  
+  /* Tabs */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tab.active {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  /* Content */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Profile */
+  .profile {
+    margin-bottom: 20px;
+  }
+  
+  /* Profile settings */
+  .settings {
+    margin-bottom: 20px;
+  }
+  
+  /* Appointments */
+  .appointments {
+    margin-bottom: 20px;
+  }
+  

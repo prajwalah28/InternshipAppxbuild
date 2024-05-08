@@ -13,21 +13,21 @@ export default function About() {
      <div className='aboutimg2'><img src={aboutCardImg} alt=''/></div>
      
     </div>
-{/* about content */}
+{/* {/ about content /} */}
       <div className="mc32">
             <h1>Proud to be one of the nations best</h1>
             <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Asperiores, libero quidem, consectetur omnis itaque quasi modi
-                  nam repellat incidunt optio facilis eius, ab maiores
-                  voluptates.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Asperiores, libero quidem, consectetur omnis itaque quasi modi
-                  nam repellat incidunt optio facilis eius, ab maiores
-                  voluptates.
-                </p>
+            Our doctors are the best because they embody excellence <br/>
+             in every aspect of patient care. With extensive medical <br/>
+            training, years of experience, and a passion for healing, <br/>
+             they are dedicated to staying at the forefront of <br/>
+            medical advancements to provide the highest quality <br/>
+             care possible. Beyond their expertise, our doctors <br/>
+            possess a genuine commitment to their patients. <br/>
+            well-being, taking the time to listen attentively,<br/>
+             answer questions thoroughly, and develop personalized <br/>
+             treatment plans tailored to each individual's needs.
+             </p> 
 
                 <Link to='/'> <button>Learn More</button></Link>
           </div>

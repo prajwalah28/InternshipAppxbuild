@@ -1,7 +1,10 @@
 import React from 'react';
 import './Feedback.css'
+import {Link} from 'react-router-dom';
+
 
 function Sidepanel(props) {
+  
     return (
         <div className="ticket">
             <div className="flex1">
@@ -35,7 +38,9 @@ function Sidepanel(props) {
                     </div>
                 </div>
                 <div className="appointment">
-                    <button>Book Appointment</button>
+                    <Link to='/doctor/:id/payment'>
+                    <button >Book Appointment</button>
+                    </Link>
                 </div>
             </div>
         </div>

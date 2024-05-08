@@ -80,7 +80,7 @@ module.exports.getAllDoctor = async (req, res) => {
 
             }).select("-password");
         }else{
-            const doctors = await Doctor.find({isApproved:"approved"}).select("-password");
+            doctors = await Doctor.find({isApproved:"approved"}).select("-password");
         }
        
 
@@ -97,11 +97,11 @@ module.exports.getAllDoctor = async (req, res) => {
     }
 };
 module.exports.getDoctorProfile = async (req, res) => {
-    const userId = req.userId
+    const doctorId = req.userId
 
     try{
         const doctor = await Doctor.findById(userId)
-        if(!user){
+        if(!doctor){
             return res.status(404).json({sucess:false,message:'Doctor not found'})
         }
         const {password,...rest} = doctor._doc;

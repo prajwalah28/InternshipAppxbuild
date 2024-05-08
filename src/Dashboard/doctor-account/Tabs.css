@@ -1,0 +1,48 @@
+.allbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .btn.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  span {
+    display: none; /* Hide the icon for now */
+  }
+  
+  @media (max-width: 768px) {
+    .allbtn {
+      flex-direction: column;
+    }
+  
+    .btn {
+      width: 100%;
+      text-align: center;
+    }
+  
+    span {
+      display: inline-block; /* Display the icon inline for smaller screens */
+      margin-bottom: 10px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+  

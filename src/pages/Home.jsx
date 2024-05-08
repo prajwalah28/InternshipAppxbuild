@@ -1,6 +1,6 @@
 import "./Home.css";
 
-import d1 from "../assets/images/doctor-img01.png";
+import d1 from "../assets/images/hero-img01.png";
 import d2 from "../assets/images/doctor-img02.png";
 import d3 from "../assets/images/doctor-img03.png";
 import ServiceList from "../components/Services/ServiceList";
@@ -15,6 +15,7 @@ import Doctors from "./Doctors";
 import Testimonial from "../components/testimonial/Testimonial";
 import Faqlist from '../components/Faq/Faqlist';
 import FaqImg from '../assets/images/faq-img.png'
+
 import '../components/Faq/Faq.css'
 export default function Home(params) {
   return (
@@ -27,12 +28,18 @@ export default function Home(params) {
           <div className="two">
             <div className="tone">
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
-                vero quas repellat quis veniam porro voluptatum, rem consequatur
-                quasi ipsam! vero quas repellat quis veniam porro voluptatum,
-                rem consequatur quasi ipsam!
-              </p>
-              <button>Request an Appointment</button>
+                
+              We believe in fostering a compassionate and supportive environment <br/>
+               for our patients. Our approach to doctor-patient care is rooted in <br/>
+                empathy, respect, and trust. We understand that each individual's <br/>
+                 health journey is unique, and we prioritize open communication to <br/>
+                  ensure that every patient feels heard and understood. From the <br/>
+                   moment you walk through our doors, our dedicated team is <br/>
+                    committed to providing personalized attention and comprehensive <br/>
+                     medical support. 
+
+                     </p>
+              <button><a href="http://localhost:5173/doctors"  >Request an Appointment</a></button>
             </div>
           </div>
           <div className="three">
@@ -58,12 +65,12 @@ export default function Home(params) {
           </div>
         </div>
       </div>
-      {/* section2 */}
+      {/* {/ section2 /} */}
       <div className="main_class2">
       <h2>
               Provide the best medical service
             </h2>
-            <p>World-class care for everyone.Our health Syste offers unmatched,
+            <p>World-class care for everyone.Our health System offers unmatched,
             expert health care.</p>
 
 
@@ -76,18 +83,18 @@ export default function Home(params) {
                 veritatis, ipsam provident illo repudiandae fuga!
               </p>
               <Link to='/doctors'>
-                <BiSolidRightArrowCircle/>
+                <BiSolidRightArrowCircle size={40}/>
               </Link>
             </div>
             <div className="c_img">
               <img src={icon02} />
               <h3>Find a Location</h3>
-              <p>
+              <p >
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
                 veritatis, ipsam provident illo repudiandae fuga!
               </p>
               <Link to='/doctors'>
-                <BiSolidRightArrowCircle/>
+                <BiSolidRightArrowCircle size={40}/>
               </Link>
             </div>
             <div className="c_img">
@@ -98,7 +105,7 @@ export default function Home(params) {
                 veritatis, ipsam provident illo repudiandae fuga!
               </p>
               <Link to='/doctors'>
-                <BiSolidRightArrowCircle/>
+                <BiSolidRightArrowCircle size={40}/>
               </Link>
             </div>
             </div>
@@ -106,23 +113,25 @@ export default function Home(params) {
 
         </div>
 
-     {/* about section start */}
+     {/* {/ about section start /} */}
      <About/>
-     {/* feature section */}
+     {/* {/ feature section /} */}
 
-      {/* services */}
+      {/* {/ services /} */}
+      <div className="bhole">
       <div className="servicesection">
         <h2>Our medical services</h2>
         <p>World-class care for everyone.Our health System offers unmatched,expert health care. </p>
       </div>
       <ServiceList/>
+      </div>
       <div className="featureall">
           <div className="feature1">
           <div className="feature1content">
             <h1>Get Virtual Treatment Anytime</h1>
             <ol>
               <li>Schedule the appointment directly</li>
-              <li>Search for your physician here, and contact their offfice.</li>
+              <li>Search for your physician here, and contact their office.</li>
               <li>View our physicians who accepting new patients,use the <br></br>online scheduling tool to select an appointment time.</li>
 
             </ol>
@@ -134,12 +143,14 @@ export default function Home(params) {
             <div className="image"><img src={featureImg} alt=""/></div>
           </div>
         </div>
-        {/* our doctors */}
+        {/* {/ our doctors /} */}
+        <div>
       <div className="doctors"><h1>Our great doctors</h1>
         <p>World-class care for everyone.Our health system offers unmatched,expert healthcare.</p></div>
 
       <Doctors/>
-      {/* faq */}
+      </div>
+      {/* {/ faq /} */}
       <section className="faq-header">
               <div className="faq-all">
                   <div className="faqimg">
@@ -157,8 +168,9 @@ export default function Home(params) {
 
 
           </section>
-{/* testimonials */}
+{/* {/ testimonials /} */}
           <Testimonial/>
+         
 
     </>
   );
