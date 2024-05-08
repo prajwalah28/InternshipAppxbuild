@@ -23,19 +23,19 @@ export default function Home(params) {
       <div className="main_class">
         <div className="class1">
           <div className="one">
-              <h1>We help patient live a healthy, longer life</h1>
+              <h1>We help patient live a healthy & longer life!</h1>
           </div>
           <div className="two">
             <div className="tone">
               <p>
                 
-              We believe in fostering a compassionate and supportive environment <br/>
-               for our patients. Our approach to doctor-patient care is rooted in <br/>
-                empathy, respect, and trust. We understand that each individual's <br/>
-                 health journey is unique, and we prioritize open communication to <br/>
-                  ensure that every patient feels heard and understood. From the <br/>
-                   moment you walk through our doors, our dedicated team is <br/>
-                    committed to providing personalized attention and comprehensive <br/>
+              We believe in fostering a compassionate and supportive environment
+               for our patients. Our approach to doctor-patient care is rooted in 
+                empathy, respect, and trust. We understand that each individual's 
+                 health journey is unique, and we prioritize open communication to 
+                  ensure that every patient feels heard and understood. From the 
+                   moment you walk through our doors, our dedicated team is 
+                    committed to providing personalized attention and comprehensive
                      medical support. 
 
                      </p>
@@ -79,8 +79,7 @@ export default function Home(params) {
               <img src={icon01} />
               <h3>Find Doctor</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
-                veritatis, ipsam provident illo repudiandae fuga!
+              Finding a doctor is made simple, with directories at your fingertips, ensuring quality care with every click.
               </p>
               <Link to='/doctors'>
                 <BiSolidRightArrowCircle size={40}/>
@@ -90,8 +89,7 @@ export default function Home(params) {
               <img src={icon02} />
               <h3>Find a Location</h3>
               <p >
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
-                veritatis, ipsam provident illo repudiandae fuga!
+              Finding a location is a cinch, with maps guiding the way, ensuring you arrive without delay.
               </p>
               <Link to='/doctors'>
                 <BiSolidRightArrowCircle size={40}/>
@@ -101,8 +99,7 @@ export default function Home(params) {
               <img src={icon03} />
               <h3>Book Appintment</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
-                veritatis, ipsam provident illo repudiandae fuga!
+              Booking an appointment is a breeze, just a click away, ensuring your time's spent where it matters most.
               </p>
               <Link to='/doctors'>
                 <BiSolidRightArrowCircle size={40}/>
@@ -118,7 +115,7 @@ export default function Home(params) {
      {/* {/ feature section /} */}
 
       {/* {/ services /} */}
-      <div className="bhole">
+      <div className="sb">
       <div className="servicesection">
         <h2>Our medical services</h2>
         <p>World-class care for everyone.Our health System offers unmatched,expert health care. </p>
@@ -156,7 +153,7 @@ export default function Home(params) {
                   <div className="faqimg">
                       <img src={FaqImg}/>
                   </div>
-                  <div>
+                  <div className="qq">
                       <h1 className="faq-top">
                           Most questions by our beloved  patients
                       </h1>

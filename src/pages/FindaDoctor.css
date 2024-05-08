@@ -44,13 +44,16 @@
     position: relative;
     top: -30px;
 }
-
+.doctorContainer{
+    background-color: rgb(245, 255, 255);
+}
 .doctor-card{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     position: relative;
     top: 30px;
+    background-color: rgb(245, 255, 255);
 }
 
 .spansp{

@@ -17,16 +17,12 @@ export default function About() {
       <div className="mc32">
             <h1>Proud to be one of the nations best</h1>
             <p>
-            Our doctors are the best because they embody excellence <br/>
-             in every aspect of patient care. With extensive medical <br/>
-            training, years of experience, and a passion for healing, <br/>
-             they are dedicated to staying at the forefront of <br/>
-            medical advancements to provide the highest quality <br/>
-             care possible. Beyond their expertise, our doctors <br/>
-            possess a genuine commitment to their patients. <br/>
-            well-being, taking the time to listen attentively,<br/>
-             answer questions thoroughly, and develop personalized <br/>
-             treatment plans tailored to each individual's needs.
+            Our doctors are the best because they embody excellence 
+             in every aspect of patient care. With extensive medical 
+            training, years of experience, and a passion for healing, 
+             they are dedicated to staying at the forefront of 
+            medical advancements to provide the highest quality 
+             care possible.
              </p> 
 
                 <Link to='/'> <button>Learn More</button></Link>

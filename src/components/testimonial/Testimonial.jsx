@@ -1,24 +1,25 @@
 import React from 'react';
 import 'swiper/css';
-import {HiStar} from "react-icons/hi";
+import { HiStar } from "react-icons/hi";
 import PatientAvatar from '../../assets/images/patient-avatar.png';
-import { Swiper, SwiperSlide} from "swiper/react";
-import {Pagination} from "swiper/modules";
-import './Testimonial.css'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import './Testimonial.css';
+
 function Testimonial(props) {
     return (
         <>
-        <div className='testimonialall'>
-            <div className="test-header">
-            <h2>
-                What our patients say
-            </h2>
-            <p>
-                World-class care for everyone, Our health system offers <br/> unmatched, expert health-care.
-            </p>
-            </div>
-            <div className="swiper1">
-                <Swiper modules={[Pagination]} spaceBetween={30} slidesPerView={1} pagination={{clickable: true}}
+            <div className='testimonialall'>
+                <div className="test-header">
+                    <h2>
+                        What our patients say
+                    </h2>
+                    <p>
+                        World-class care for everyone, Our health system offers <br /> unmatched, expert health-care.
+                    </p>
+                </div>
+                <div className="swiper1">
+                    <Swiper modules={[Pagination]} spaceBetween={30} slidesPerView={1} pagination={{ clickable: true }}
                         breakpoints={{
                             640: {
                                 slidesPerView: 1,
@@ -33,20 +34,19 @@ function Testimonial(props) {
                                 spaceBetween: 30,
                             },
                         }}
-                >
-                    <SwiperSlide>
-                        <div>
-                            <div>
-                                <img src={PatientAvatar}/>
-                                <div>
-                                    <h4>Muhibur Rahman</h4>
+                    >
+                        <SwiperSlide>
+                            <div className='all'>
+                                <img src={PatientAvatar} alt="Patient Avatar" />
+                                <div className='a1'>
+                                    <h4 className='a2'>Muhibur Rahman</h4>
 
-                                    <div>
+                                    <div className='a3'>
                                         <HiStar color='#ffc95b' size={20} />
-                                        <HiStar color='#ffc95b' size={20}/>
-                                        <HiStar color='#ffc95b' size={20}/>
-                                        <HiStar color='#ffc95b' size={20}/>
-                                        <HiStar color='#ffc95b' size={20}/>
+                                        <HiStar color='#ffc95b' size={20} />
+                                        <HiStar color='#ffc95b' size={20} />
+                                        <HiStar color='#ffc95b' size={20} />
+                                        <HiStar color='#ffc95b' size={20} />
                                     </div>
                                 </div>
                             </div>
@@ -54,39 +54,15 @@ function Testimonial(props) {
                                 "I have taken medical services from them. They treat so well
                                 and they are providing the best medical services"
                             </p>
-                        </div>
-                    </SwiperSlide>
+                        </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <div>
+                            <div className='all'>
                                 <img src={PatientAvatar}/>
-                                <div>
-                                    <h4>Muhibur Rahman</h4>
+                                <div className='a1'>
+                                    <h4 className='a2'>Muhibur Rahman</h4>
 
-                                    <div>
-                                        <HiStar color='#ffc95b' size={20}/>
-                                        <HiStar color='#ffc95b' size={20}/>
-                                        <HiStar color='#ffc95b' size={20}/>
-                                        <HiStar color='#ffc95b' size={20}/>
-                                        <HiStar color='#ffc95b' size={20}/>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>
-                                "I have taken medical services from them. They treat so well
-                                and they are providing the best medical services"
-                            </p>
-                        </div>
-
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div>
-                            <div>
-                                <img src={PatientAvatar}/>
-                                <div>
-                                    <h4>Muhibur Rahman</h4>
-
-                                    <div>
+                                    <div className='a3'>
                                         <HiStar color='#ffc95b' size={20}/>
                                         <HiStar color='#ffc95b' size={20}/>
                                         <HiStar color='#ffc95b' size={20}/>
@@ -104,12 +80,12 @@ function Testimonial(props) {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div>
-                            <div>
+                            <div className='all'>
                                 <img src={PatientAvatar}/>
-                                <div>
-                                    <h4>Muhibur Rahman</h4>
+                                <div className='a1'>
+                                    <h4 className='a2'>Muhibur Rahman</h4>
 
-                                    <div>
+                                    <div className='a3'>
                                         <HiStar color='#ffc95b' size={20}/>
                                         <HiStar color='#ffc95b' size={20}/>
                                         <HiStar color='#ffc95b' size={20}/>
@@ -126,13 +102,13 @@ function Testimonial(props) {
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div>
-                            <div>
+                    <div>
+                            <div className='all'>
                                 <img src={PatientAvatar}/>
-                                <div>
-                                    <h4>Muhibur Rahman</h4>
+                                <div className='a1'>
+                                    <h4 className='a2'>Muhibur Rahman</h4>
 
-                                    <div>
+                                    <div className='a3'>
                                         <HiStar color='#ffc95b' size={20}/>
                                         <HiStar color='#ffc95b' size={20}/>
                                         <HiStar color='#ffc95b' size={20}/>
@@ -149,13 +125,36 @@ function Testimonial(props) {
 
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div>
-                            <div >
+                    <div>
+                            <div className='all'>
                                 <img src={PatientAvatar}/>
-                                <div>
-                                    <h4>Muhibur Rahman</h4>
+                                <div className='a1'>
+                                    <h4 className='a2'>Muhibur Rahman</h4>
 
-                                    <div>
+                                    <div className='a3'>
+                                        <HiStar color='#ffc95b' size={20}/>
+                                        <HiStar color='#ffc95b' size={20}/>
+                                        <HiStar color='#ffc95b' size={20}/>
+                                        <HiStar color='#ffc95b' size={20}/>
+                                        <HiStar color='#ffc95b' size={20}/>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                "I have taken medical services from them. They treat so well
+                                and they are providing the best medical services"
+                            </p>
+                        </div>
+
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <div>
+                            <div className='all'>
+                                <img src={PatientAvatar}/>
+                                <div className='a1'>
+                                    <h4 className='a2'>Muhibur Rahman</h4>
+
+                                    <div className='a3'>
                                         <HiStar color='#ffc95b' size={20}/>
                                         <HiStar color='#ffc95b' size={20}/>
                                         <HiStar color='#ffc95b' size={20}/>

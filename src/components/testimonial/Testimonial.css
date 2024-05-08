@@ -1,34 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
-.testimonialall{
-    margin-top: 150px;
-}
-.test-header{
-    
-    top: 150px;
-}
-
-.test-header h2{
-    font-family: "Manrope", sans-serif;
-    font-style: normal;
-    font-size: 40px;
+.testimonialall {
+    margin-top: 160px;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .test-header {
     text-align: center;
-}
-
-.test-header p{
-text-align: center;
-    font-family: "Manrope", sans-serif;
-    font-weight: 1;
-}
-
-.swiper1{
+    margin-bottom: 40px;
+  }
+  
+  .test-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .test-header p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .swiper1 {
+    margin: 0 auto;
+    max-width: auto;
+  }
+  
+  .swiper-slide {
+    padding: 20px;
+  }
+  
+  .swiper-slide img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .swiper-slide h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .swiper-slide p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .all {
+    display: flex;
+    align-items: center;
    
-    left: 100px ;
-    right: 100px;
-   
-    width: 100%;
-
-
-}
-
-
+  }
+  SwiperSlide{
+    
+  }
+  .a1 {
+    margin-left: 10px;
+  }
+  
+  .a2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .a3 {
+    display: flex;
+  }
+  
+  .a3 svg {
+    margin-right: 5px;
+  }

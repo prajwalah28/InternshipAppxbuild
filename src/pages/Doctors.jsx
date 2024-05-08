@@ -8,7 +8,7 @@ function Doctors() {
         <>
        
             <section>
-                <div>
+                <div className='doctorContainer'>
                     <div className="doctor-card">
                         {doctors.map((doctor) => (
                             <DoctorCard key={doctor.id} doctor={doctor}/>
